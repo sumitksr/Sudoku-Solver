@@ -4,7 +4,6 @@ using namespace std;
 
 bool isSafe(int grid[N][N], int row, int col, int num) {
     for (int x = 0; x < N; x++) {
-
         if (grid[row][x] == num || grid[x][col] == num) return false;
     }
     int startRow = row - row % 3, startCol = col - col % 3;
@@ -52,19 +51,16 @@ void printGrid(int grid[N][N]) {
 }
 
 int main() {
-    int grid[N][N] = {
-        {5, 3, 0, 0, 7, 0, 0, 0, 0},
-        {6, 0, 0, 1, 9, 5, 0, 0, 0},
-        {0, 9, 8, 0, 0, 0, 0, 6, 0},
-        {8, 0, 0, 0, 6, 0, 0, 0, 3},
-        {4, 0, 0, 8, 0, 3, 0, 0, 1},
-        {7, 0, 0, 0, 2, 0, 0, 0, 6},
-        {0, 6, 0, 0, 0, 0, 2, 8, 0},
-        {0, 0, 0, 4, 1, 9, 0, 0, 5},
-        {0, 0, 0, 0, 8, 0, 0, 7, 9}
-    };
+    int grid[N][N];
+    cout << "Enter the Sudoku puzzle (use 0 for empty cells):" << endl;
+    for (int i = 0; i < N; i++) {
+        for (int j = 0; j < N; j++) {
+            cin >> grid[i][j];
+        }
+    }
 
     if (solveSudoku(grid)) {
+        cout << "Solved Sudoku:" << endl;
         printGrid(grid);
     } else {
         cout << "No solution exists" << endl;
