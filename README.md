@@ -18,7 +18,7 @@ A C++ program to solve Sudoku puzzles using backtracking. The program allows the
 ## How to Use
 1. Compile the code using a C++ compiler:
    ```bash
-   g++ -o Sudoku_Solver Sudoku_solver.cpp
+   g++ -o Sudoku_Solver Sudoku-solver.cpp
 2. Run the program :
    ```bash
    Sudoku-solver
