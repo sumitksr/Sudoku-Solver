@@ -12,13 +12,13 @@ A C++ program to solve Sudoku puzzles using backtracking. The program allows the
 2. Clone repository Locally
 3. open the terminal and run
     ```bash
-   git clone https://github.com/sumitksr/Sudoku-solver.git
-    cd Sudoko-solver
+   git clone https://github.com/sumitksr/Sudoku-Solver.git
+    cd Sudoko-Solver
 
 ## How to Use
 1. Compile the code using a C++ compiler:
    ```bash
-   g++ -o Sudoku_solver Sudoku_solver.cpp
+   g++ -o Sudoku_Solver Sudoku_solver.cpp
 2. Run the program :
    ```bash
    Sudoku-solver
