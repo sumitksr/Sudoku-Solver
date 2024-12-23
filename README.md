@@ -7,8 +7,20 @@ A C++ program to solve Sudoku puzzles using backtracking. The program allows the
 - Solves any 9x9 Sudoku puzzle.
 - Uses a backtracking algorithm for efficient solving.
 - Validates the input grid.
+## Set up git locally
+1. Install Git
+2. Clone repository Locally
+3. open the terminal and run
+    ```bash
+   git clone https://github.com/sumitksr/Sudoku-solver.git
+    cd Sudoko-solver
 
 ## How to Use
 1. Compile the code using a C++ compiler:
    ```bash
-   g++ -o sudoku_solver sudoku_solver.cpp
+   g++ -o Sudoku_solver Sudoku_solver.cpp
+2. Run the program :
+   ```bash
+   Sudoku-solver
+## Contribution Guidelines  
+  Feel free to contribute by raising issues or submitting pull requests!
