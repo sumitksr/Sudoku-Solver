@@ -1,11 +1,14 @@
 # Sudoku Solver
 
 ## Description
-This project is a C++ implementation of a Sudoku solver. It provides an efficient solution for solving Sudoku puzzles using the backtracking algorithm. The program takes an input grid (partially filled Sudoku puzzle) and attempts to complete the grid by filling in the missing numbers while adhering to Sudoku rules.
+A C++ program to solve Sudoku puzzles using backtracking. The program allows the user to input a 9x9 Sudoku puzzle and outputs the solved puzzle.
 
 ## Features
 - Solves any 9x9 Sudoku puzzle.
-- Uses a backtracking algorithm for efficient problem-solving.
-- Validates the input grid to ensure it adheres to Sudoku rules.
-- Command-line interface for easy input and output.
+- Uses a backtracking algorithm for efficient solving.
+- Validates the input grid.
 
+## How to Use
+1. Compile the code using a C++ compiler:
+   ```bash
+   g++ -o sudoku_solver sudoku_solver.cpp
