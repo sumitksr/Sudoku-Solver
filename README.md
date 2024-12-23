@@ -10,7 +10,7 @@ A C++ program to solve Sudoku puzzles using backtracking. The program allows the
 ## Set up git locally
 1. Install Git
 2. Clone repository Locally
-3. open the terminal and run
+3. Open the terminal and run
     ```bash
    git clone https://github.com/sumitksr/Sudoku-Solver.git
    cd Sudoku-Solver
