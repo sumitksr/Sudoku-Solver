@@ -1,7 +1,6 @@
 #include <iostream>
 #define N 9
 using namespace std;
-
 bool isSafe(int grid[N][N], int row, int col, int num) {
     for (int x = 0; x < N; x++) {
         if (grid[row][x] == num || grid[x][col] == num) return false;
