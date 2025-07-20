@@ -24,3 +24,5 @@ A C++ program to solve Sudoku puzzles using backtracking. The program allows the
    ./Sudoku_solver
 ## Contribution Guidelines  
   Feel free to contribute by raising issues or submitting pull requests!
+
+
