@@ -3,7 +3,6 @@
 ## Description
 A C++ program to solve Sudoku puzzles using backtracking. The program allows the user to input a 9x9 Sudoku puzzle and outputs the solved puzzle.
 
-
 ## Features
 - Solves any 9x9 Sudoku puzzle.
 - Uses a backtracking algorithm for efficient solving.
